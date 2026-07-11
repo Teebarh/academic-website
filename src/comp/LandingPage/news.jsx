@@ -107,24 +107,24 @@ const newsItems = [
     ),
   },
   {
-    id: 10,
-    date: "Jul 2025",
-    description: (
-      <>
-        Began the mentorship program at{" "}
-        <a href="https://www.researchgirl.org/" target="_blank" rel="noopener noreferrer">Research Girl, Inc.</a>,
-        conducting an independent survey study on predictive maintenance in aerospace systems and identifying
-        research gaps in rotary-wing maintenance.
-      </>
-    ),
-  },
-  {
     id: 11,
     date: "May 2025",
     description: (
       <>
         My talk proposal, &quot;Making Robots See: Using Python for Basic Computer Vision,&quot; was accepted at
         DjangoCon Africa 2025. I also received the Opportunity Travel Grant to attend.
+      </>
+    ),
+  },
+  {
+    id: 10,
+    date: "May 2025",
+    description: (
+      <>
+        Began the mentorship program at{" "}
+        <a href="https://www.researchgirl.org/" target="_blank" rel="noopener noreferrer">Research Girl, Inc.</a>,
+        conducting an independent survey study on predictive maintenance in aerospace systems and identifying
+        research gaps in rotary-wing maintenance.
       </>
     ),
   },
