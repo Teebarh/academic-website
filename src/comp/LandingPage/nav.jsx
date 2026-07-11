@@ -15,7 +15,7 @@ const Nav = () => {
       // Only handle scroll-based navigation on the home page
       if (location.pathname === '/') {
         // Get all sections
-        const sections = ['hero', 'news', 'publications'];
+        const sections = ['hero', 'news', 'publications', 'speaking'];
         
         // Find which section is currently in view
         for (const section of sections) {
@@ -78,6 +78,18 @@ const Nav = () => {
 
           <Link
             to="/"
+            className={location.pathname === '/' && activeSection === 'speaking' ? 'active' : ''}
+            onClick={() => {
+              if (location.pathname === '/') {
+                scrollToSection('speaking');
+              }
+            }}
+          >
+            Speaking
+          </Link>
+
+          <Link
+            to="/"
             className={location.pathname === '/' && activeSection === 'news' ? 'active' : ''}
             onClick={() => {
               if (location.pathname === '/') {
@@ -88,7 +100,7 @@ const Nav = () => {
             News
           </Link>
 
-          
+
           <Link
             to="/blog"
             className={location.pathname === '/blog' ? 'active' : ''}

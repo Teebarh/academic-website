@@ -31,36 +31,6 @@ const experienceData = [
     //   { text: "ML Collective Overview", url: "#" }
     // ]
   },
-  {
-    role: "Student Industrial Work Experience Scheme (SIWES)",
-    company: "Cakasa Engineering Services Limited",
-    duration: "Aug 2024 - Oct 2024",
-    tags: ["AutoCAD", "AVEVA", "Industrial Design"],
-    description: "Designed industrial projects using AutoCAD and AVEVA.",
-    achievements: [
-      "Completed detailed industrial designs",
-      "Learned ML concepts for engineering",
-      "Improved interdisciplinary tech understanding"
-    ],
-    // links: [
-    //   { text: "Cakasa Engineering Services", url: "#" }
-    // ]
-  },
-  {
-    role: "Frontend Engineering Intern",
-    company: "Credo",
-    duration: "Aug 2023 - Mar 2024",
-    tags: ["Frontend Development", "React", "Web Optimization"],
-    description: "Developed responsive websites and optimized web applications.",
-    achievements: [
-      "Built scalable, accessible web solutions",
-      "Improved website performance",
-      "Worked with a diverse development team"
-    ],
-    // links: [
-    //   { text: "Credo Projects", url: "#" }
-    // ]
-  }
 ];
 
 const Experience = () => {

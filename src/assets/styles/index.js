@@ -290,6 +290,112 @@ export const PapersSection = styled.section`
   }
 `;
 
+export const SpeakingSection = styled.section`
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+  }
+
+  .talk-item {
+    display: flex;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #f0f0f0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .talk-year {
+      font-weight: bold;
+      color: rgb(204, 51, 0);
+      font-size: 1rem;
+      min-width: 80px;
+      margin-right: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .talk-content {
+      flex: 1;
+
+      .talk-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 0.5rem;
+        line-height: 1.4;
+      }
+
+      .talk-venue {
+        font-size: 0.9rem;
+        color: #555;
+        margin-bottom: 0.4rem;
+        font-weight: 500;
+      }
+
+      .talk-description {
+        font-size: 0.95rem;
+        color: #666;
+        line-height: 1.5;
+      }
+
+      .talk-link {
+        display: inline-block;
+        margin-top: 0.5rem;
+        color: rgb(164, 42, 1);
+        text-decoration: underline;
+        font-size: 0.9rem;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: rgb(204, 51, 0);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    .talk-item {
+      flex-direction: column;
+
+      .talk-year {
+        min-width: auto;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+      }
+
+      .talk-content {
+        .talk-title {
+          font-size: 1rem;
+        }
+
+        .talk-venue {
+          font-size: 0.85rem;
+        }
+
+        .talk-description {
+          font-size: 0.85rem;
+        }
+      }
+    }
+  }
+`;
+
 export const BlogSection = styled.section`
   max-width: 1200px;
   margin: 0 auto;
@@ -852,9 +958,30 @@ export const Footer = styled.footer`
   color: #666;
   font-size: 0.9rem;
   border-top: 1px solid #eaeaea;  // Subtle light gray border
-  
+
   p {
     line-height: 1.6;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+
+    a {
+      color: #666;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: rgb(164, 42, 1);
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
   }
 
   @media (max-width: 768px) {

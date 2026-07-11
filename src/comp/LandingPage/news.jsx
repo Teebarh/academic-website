@@ -2,120 +2,48 @@ import { NewsSection } from "../../assets/styles";
 
 const newsItems = [
   {
-    id: 24,
+    id: 1,
+    date: "June 2026",
+    description: (
+      <>
+        Awarded the{" "}
+        <a href="https://www.wiml.org/" target="_blank" rel="noopener noreferrer">Women in Machine Learning (WiML)</a>{" "}
+        travel grant to attend the{" "}
+        <a href="https://sites.google.com/wimlworkshop.org/wimlsymposium-2026/" target="_blank" rel="noopener noreferrer">WiML Workshop at ICML 2026</a>.
+      </>
+    ),
+  },
+  {
+    id: 2,
     date: "May 2026",
     description: (
       <>
-        I was invited to present my paper, &quot;SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays,&quot; at the AIMed Hack 2026 Live Session for the current cohort of SPARK Academy.
-      </>
-    ),
-  },
-  {
-    id: 23,
-    date: "April 2026",
-    description: (
-      <>
-        Our paper <a href="https://arxiv.org/abs/2604.06583" target="_blank" rel="noopener noreferrer">&quot;VAMAE: Vessel-Aware Masked Autoencoders for OCT-Angiography,&quot;</a> was accepted to the <a href="https://icpr2026.org/" target="_blank" rel="noopener noreferrer">International Conference on Pattern Recognition (ICPR) 2026</a>! We’ll be presenting in Lyon, France this August. Congratulations to the team!
-      </>
-    ),
-  },
-  {
-    id: 22,
-    date: "March 2026",
-    description: (
-      <>
-        I was invited to speak at ML Lagos as part of the International Women’s Day special session, &quot;Build, Deploy, Transform&quot;!
-      </>
-    ),
-  },
-  {
-    id: 20,
-    date: "Jan 2026",
-    description: (
-      <>
-        I will be spending the summer in Switzerland as a research intern at{" "}
-        <a
-          href="https://vilab.epfl.ch/zamir/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          VILAB, EPFL
-        </a>{" "}
-        under{" "}
-        <a
-          href="https://vilab.epfl.ch/zamir/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Prof. Amir Zamir
-        </a>.
-      </>
-    ),
-  },
-  {
-    id: 2,
-    date: "Dec 2025",
-    description: (
-      <>
-        I was invited to speak on &quot;Building Robust Medical Imaging AI for Low-Resource Settings&quot; at ML Lagos 2025.{" "}
-        <a
-          href="https://youtu.be/DG2GbkIZL4Q?si=sUMpwVJAThfWghiV"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          [Talk Recording]
-        </a>.
-      </>
-    ),
-  },
-  {
-    id: 7,
-    date: "Nov 2025",
-    description: (
-      <>
-        We were invited to present &quot;SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays&quot; as a poster at 
-        <a href="https://icair.unilag.edu.ng/" target="_blank" rel="noopener noreferrer"> The International Conference on Artificial Intelligence and Robotics (ICAIR)</a>.
-      </>
-    ),
-  },
-  {
-    id: 1,
-    date: "Nov 2025",
-    description: (
-      <>
-        I will be giving my talk &quot;Why Your Medical AI Model Might Not Work in Africa: A Python Guide to Measuring Bias&quot; again at 
-        <a href="https://2025.conference.pyladies.com/en/" target="_blank" rel="noopener noreferrer"> PyLadiesCon 2025</a>.
-      </>
-    ),
-  },
-  {
-    id: 2,
-    date: "Oct 2025",
-    description: (
-      <>
-        I led Team Mamalens, and we were a finalist at the Data Science for Health Ideathon (in collaboration with the 
-        <a href="https://deeplearningindaba.com/" target="_blank" rel="noopener noreferrer"> Deep Learning Indaba</a>). We also won the “most fun project” award!  
-        <a href="https://docs.google.com/presentation/d/17LVUDp3HcsDdlQ2ZxIaimRf1jW5snWvd-r6mWReY9Eo/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> [Slides]</a>
+        Our paper &quot;A Stone Against Goliath: Addressing Occlusion Without LiDAR on Resource-Constrained
+        Robots&quot; had its abstract accepted at the{" "}
+        <a href="https://www.wiml.org/" target="_blank" rel="noopener noreferrer">Women in Machine Learning (WiML) Workshop</a>,
+        co-located with the{" "}
+        <a href="https://sites.google.com/wimlworkshop.org/wimlsymposium-2026/" target="_blank" rel="noopener noreferrer">International Conference on Machine Learning (ICML) 2026</a>.{" "}
+        <a href="https://drive.google.com/file/d/1qiv65y--1eFMUMTqcnVDF-GOh_Z7J6EK/view?usp=drive_link" target="_blank" rel="noopener noreferrer">[Poster]</a>
       </>
     ),
   },
   {
     id: 3,
-    date: "Oct 2025",
+    date: "March 2026",
     description: (
       <>
-        I was invited as a guest speaker to speak on  <a href="https://docs.google.com/presentation/d/1o1sqlk28dzbdeLgcwLCnaqV-XjCXnD8NrVayj5IjQhw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">&quot;Making Impact Beyond School&quot;  </a>  at the Freshers Orientation of the 
-        Association of Mechatronics Engineering Students (AMTES), FUNAAB. Thank you to the executives!
+        Recognized in the Wiley Index of Inspiring Black Scientists, 2026, highlighting outstanding Black
+        scientists contributing to research and STEM advancement.
       </>
     ),
   },
   {
     id: 4,
-    date: "Oct 2025",
+    date: "Jan 2026",
     description: (
       <>
-        Delivered a talk on &quot;Why Your Medical AI Model Might Not Work in Africa: A Python Guide to Measuring Bias&quot; at 
-        <a href="https://ng.pycon.org/" target="_blank" rel="noopener noreferrer"> PyCon Nigeria 2025</a>.   <a href="https://docs.google.com/presentation/d/1FQYHi3cvTZKPZ8NSkW646vOLWlyKP7ZKYIKjU2yCRl4/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> [Slides]</a>
+        Delivered a talk, &quot;Building the Future with Tech, Tenacity, and Transformation,&quot; at the APWEN
+        FUNAAB College Symposium.
       </>
     ),
   },
@@ -124,19 +52,22 @@ const newsItems = [
     date: "Oct 2025",
     description: (
       <>
-        I have just been appointed as Co-Lead of the 
-        <a href="https://gdg.community.dev/gdg-on-campus-federal-university-of-agriculture-abeokuta-nigeria/" target="_blank" rel="noopener noreferrer"> Google Developer Groups FUNAAB</a>, after serving as ML Co-Lead in the previous year.{' '}
-        <a href="https://chat.whatsapp.com/IHdzT3JF5B4IgNq4u6BNKU" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Join our community here!</a>
+        I was part of Team Mamalens, and we were a finalist at the Data Science for Health Ideathon (in
+        collaboration with the{" "}
+        <a href="https://deeplearningindaba.com/" target="_blank" rel="noopener noreferrer">Deep Learning Indaba</a>).
+        We also won the &quot;most fun project&quot; award!{" "}
+        <a href="https://docs.google.com/presentation/d/17LVUDp3HcsDdlQ2ZxIaimRf1jW5snWvd-r6mWReY9Eo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">[Slides]</a>
       </>
-    )
+    ),
   },
   {
     id: 6,
     date: "Sept 2025",
     description: (
       <>
-        Presented &quot;SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays&quot;  at the MIRASOL Workshop, 
-         — <b>  awarded Best Paper Runner-Up!</b>
+        Began leading the Robotics Focus Group at{" "}
+        <a href="https://mlcollective.org" target="_blank" rel="noopener noreferrer">ML Collective</a>, developing
+        an occlusion-aware perception model for autonomous navigation using monocular depth estimation.
       </>
     ),
   },
@@ -145,8 +76,9 @@ const newsItems = [
     date: "Sept 2025",
     description: (
       <>
-        Our paper &quot;Addressing Domain Shift in Low-Resource Neuroimaging: Glioma Segmentation for Sub-Saharan MRI&quot; was accepted to 
-        <a href="https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2025/home" target="_blank" rel="noopener noreferrer"> WiML @ NeurIPS 2025</a>. Awarded a full travel grant to attend.
+        Completed the Aircraft Maintenance Engineering internship at 7 Star Global, Murtala Muhammed
+        International Airport, Lagos, having assisted with corrosion control, servicing, and inspections during
+        a major C-check event.
       </>
     ),
   },
@@ -155,66 +87,93 @@ const newsItems = [
     date: "Aug 2025",
     description: (
       <>
-        Won a <b>Best Poster Award</b> at the 
-        <a href="https://deeplearningindaba.com/" target="_blank" rel="noopener noreferrer"> Deep Learning Indaba 2025</a> for  
-        &quot;Fairness-Aware Machine Learning for Social Bias Detection in Healthcare Research Datasets.&quot; which I presented as a collaborator. <a href="https://drive.google.com/file/d/1H2FJLdhIbC-CqsdtXp1H5R2d35ZRlnPq/view?usp=sharing" target="_blank" rel="noopener noreferrer"> [Poster]</a>
+        Attended{" "}
+        <a href="https://deeplearningindaba.com/" target="_blank" rel="noopener noreferrer">Deep Learning Indaba 2025</a>{" "}
+        in Kigali, Rwanda, with funding from{" "}
+        <a href="https://mlcollective.org" target="_blank" rel="noopener noreferrer">ML Collective</a>. Thank you
+        to everyone who made it a reality!{" "}
+        <a href="https://medium.com/@Toyibat_Adele/living-the-magic-of-the-indaba-for-the-first-time-6989de08dfa5" target="_blank" rel="noopener noreferrer">[Read about it]</a>
       </>
     ),
   },
   {
     id: 9,
-    date: "July 2025",
+    date: "Aug 2025",
     description: (
       <>
-        Attended the <a href="https://summer.rise-miccai.org/" target="_blank" rel="noopener noreferrer">RISE-MICCAI Summer School 2025</a>, a one-week program on medical image computing and AI in healthcare.
+        Ended the mentorship program at{" "}
+        <a href="https://www.researchgirl.org/" target="_blank" rel="noopener noreferrer">Research Girl, Inc.</a>
       </>
     ),
   },
   {
     id: 10,
-    date: "June 2025",
+    date: "Jul 2025",
     description: (
       <>
-        Received a scholarship for the <a href="https://aimi.stanford.edu/aimi25/agenda" target="_blank" rel="noopener noreferrer">2025 Stanford AIMI Symposium</a>, which included complimentary virtual registration for the event held at Stanford University on June 3, 2025.
+        Began the mentorship program at{" "}
+        <a href="https://www.researchgirl.org/" target="_blank" rel="noopener noreferrer">Research Girl, Inc.</a>,
+        conducting an independent survey study on predictive maintenance in aerospace systems and identifying
+        research gaps in rotary-wing maintenance.
       </>
     ),
   },
   {
     id: 11,
-    date: "June 2025",
+    date: "May 2025",
     description: (
       <>
-        My first paper &quot;SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays&quot; was accepted at the <a href="https://event.fourwaves.com/mirasol/pages" target="_blank" rel="noopener noreferrer"> MICCAI MIRASOL Workshop!</a> I led this research as the lead for the 
-        <a href="https://mlcollective.org" target="_blank" rel="noopener noreferrer"> ML Collective</a> medical imaging focus group in Nigeria. Congratulations to the team!
+        My talk proposal, &quot;Making Robots See: Using Python for Basic Computer Vision,&quot; was accepted at
+        DjangoCon Africa 2025. I also received the Opportunity Travel Grant to attend.
       </>
     ),
   },
   {
     id: 12,
-    date: "Mar 2025",
+    date: "Apr 2025",
     description: (
       <>
-        Excited to have been selected for the 
-        <a href="https://miccai.org/index.php/about-miccai/miccai-society-mentorship-program/" target="_blank" rel="noopener noreferrer"> MICCAI Society Mentorship Program</a> and be paired with <a href="https://qmeng99.github.io//" target="_blank" rel="noopener noreferrer"> Prof. Qingjie Meng!</a>
+        Began an Aircraft Maintenance Engineering internship at 7 Star Global, Murtala Muhammed International
+        Airport, Lagos.
       </>
     ),
   },
   {
     id: 13,
-    date: "Sept 2024",
+    date: "Jan 2025",
     description: (
       <>
-        Presented a poster on “Maternify” at the <a href="https://deeplearningindaba.com/" target="_blank" rel="noopener noreferrer">Deep Learning Indaba 2024</a> in Dakar, Senegal. Thank you to the DLI Committee for the full sponsorship.
+        Received the Diversity Travel Grant to attend PyCon DE & PyData 2025.
+      </>
+    ),
+  },
+  {
+    id: 12,
+    date: "Dec 2024",
+    description: (
+      <>
+        My talk proposal, &quot;Making Robots See: Using Python for Basic Computer Vision,&quot; was accepted at
+        PyCon DE & PyData 2025.
+      </>
+    ),
+  },
+  {
+    id: 13,
+    date: "Nov 2024",
+    description: (
+      <>
+        Co-founded Engineering Girls in Tech (FUNAAB), empowering female engineering students through technical
+        skill-building and career development support.
       </>
     ),
   },
   {
     id: 14,
-    date: "Sept 2024",
+    date: "Oct 2024",
     description: (
       <>
-        I spoke at <a href="https://2024.djangocon.us/" target="_blank" rel="noopener noreferrer">DjangoCon US 2024</a> on &quot;The Magic of Dependencies Installing Themselves,&quot; highlighting PEP 723 for reproducibility and 
-        efficiency. <a href="https://pretalx.com/djangocon-us-2024/talk/8TBXVX/" target="_blank" rel="noopener noreferrer">[Talk]</a>
+        Completed an Aircraft Maintenance Engineering internship at the Naval Air Base, Navy Town, Lagos, having
+        assisted with second- and third-line helicopter maintenance and rotor balancing.
       </>
     ),
   },
@@ -223,17 +182,28 @@ const newsItems = [
     date: "Sept 2024",
     description: (
       <>
-        I will be at 
-        <a href="https://africa.pycon.org/2024/" target="_blank" rel="noopener noreferrer"> PyCon Africa 2024</a> in Accra, Ghana! Thank you to the Python community for the full sponsorship.
+        Our poster on &quot;Maternify&quot; was presented at{" "}
+        <a href="https://deeplearningindaba.com/" target="_blank" rel="noopener noreferrer">Deep Learning Indaba 2024</a>{" "}
+        in Dakar, Senegal, with full sponsorship from the DLI Committee.
       </>
     ),
   },
   {
     id: 16,
-    date: "June 2024",
+    date: "Sept 2024",
     description: (
       <>
-        Earned the “Microsoft Azure Responsible AI Workshop Coach” badge for mentoring participants on building fair and trustworthy AI systems.
+        Attended PyCon Africa 2024 in Accra, Ghana, thanks to full sponsorship from the Python community.{" "}
+        <a href="https://medium.com/python-in-plain-english/my-experience-attending-pycon-africa-for-the-first-time-5623daa93f3f" target="_blank" rel="noopener noreferrer">[Read about it]</a>
+      </>
+    ),
+  },
+  {
+    id: 16,
+    date: "Aug 2024",
+    description: (
+      <>
+        Began an Aircraft Maintenance Engineering internship at the Naval Air Base, Navy Town, Lagos.
       </>
     ),
   },
@@ -242,27 +212,48 @@ const newsItems = [
     date: "May 2024",
     description: (
       <>
-        I built “Maternify,” an ML-powered prenatal care chatbot, with Toyibat Adele, Kelechi Chbundu and Muslimah Sarumi, and we ranked Top 5 in the “Microsoft Ambassador’s AI Challenge.”
+        I built &quot;Maternify,&quot; an ML-powered prenatal care chatbot, with Ilerioluwakiiye Abolade, Kelechi
+        Chibundu, and Muslimah Sarumi, and we ranked Top 5 in the &quot;Microsoft Ambassador&apos;s AI
+        Challenge.&quot;
       </>
     ),
   },
   {
     id: 18,
-    date: "Feb 2024",
+    date: "May 2024",
     description: (
       <>
-        Received a $2,000 grant 
-        to attend  <a href="https://us.pycon.org/2024/" target="_blank" rel="noopener noreferrer"> PyCon US 2024</a>, the largest annual convention for the Python programming language.
+        Delivered a talk, &quot;Enhancing Python Workflows with Python Virtual Environments,&quot; at PyCon
+        Nigeria 2024.
       </>
     ),
   },
   {
     id: 19,
-    date: "Jan 2024",
+    date: "March 2024",
     description: (
       <>
-        Delivered a talk on &quot;Balancing Academics and a Thriving Tech Career&quot; at the 
-        AMTES (FUNAAB) Freshers Orientation
+        Delivered a talk, &quot;LinkedIn Optimisation for Global Opportunities,&quot; at the GDSC FUNAAB Meetup.
+      </>
+    ),
+  },
+  {
+    id: 20,
+    date: "Aug 2023",
+    description: (
+      <>
+        Selected as one of five Microsoft Student Ambassadors on campus, facilitating student engagement through
+        events and Microsoft-led learning initiatives.
+      </>
+    ),
+  },
+  {
+    id: 21,
+    date: "Dec 2022",
+    description: (
+      <>
+        Co-founded Muslimah in Tech, building a community mentoring Muslim women in tech through workshops and
+        networking opportunities.
       </>
     ),
   }

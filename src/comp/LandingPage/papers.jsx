@@ -2,73 +2,31 @@ import { PapersSection } from "../../assets/styles";
 
 const papers = [
   {
-    id: 4,
-    title: "VAMAE: Vessel-Aware Masked Autoencoders for OCT-Angiography",
-    authors: "Abolade, I., Mireku, P., Chibundu, K., Ododo, P., Idoko, E., Omoigui, P., & Odelola, S.",
-    venue: "International Conference on Pattern Recognition (ICPR) 2026",
+    id: 1,
+    title: "A Stone Against Goliath: Addressing Occlusion Without LiDAR on Resource-Constrained Robots",
+    authors: "Adele, T., Onyeweankwu, C., Abdulkareem, S., & Eje, O.",
+    venue: "Women in Machine Learning (WiML) Workshop, co-located with the International Conference on Machine Learning (ICML) 2026",
+    status: "Abstract accepted; full manuscript in preparation",
     year: "2026",
     links: [
       {
-        text: "Preprint",
-        url: "https://arxiv.org/abs/2604.06583"
+        text: "Poster",
+        url: "https://drive.google.com/file/d/1qiv65y--1eFMUMTqcnVDF-GOh_Z7J6EK/view?usp=drive_link"
       }
-    ]
-  },
-  {
-    id: 2,
-    title: "Domain-Adaptive Transformer for Data-Efficient Glioma Segmentation in Sub-Saharan MRI",
-    authors: "Abolade, I., Udo, A., Ojo, A., Oyetunji, A., Ajigbotosho, H., Iorumbur, A., Raymond, C., & Adewole, M.",
-    venue: "International Society for Magnetic Resonance in Medicine (ISMRM)",
-    year: "2025",
-    links: [
-      {
-        text: "Preprint",
-        url: "https://arxiv.org/abs/2511.02928"
-      }
-    ]
-  },
-  {
-    id: 1,
-    title: "Addressing Domain Shift in Low-Resource Neuroimaging: Glioma Segmentation for Sub-Saharan MRI",
-    authors: "Abolade, I.",
-    venue: "WiML @ NeurIPS",
-    year: "2025",
-    links: [
-      {
-        text: "OpenReview",
-        url: "https://openreview.net/forum?id=4VzB93HogD"
-      }
-    ]
-  },
-  {
-    id: 3,
-    title: "SharpXR: Structure-Aware Denoising for Pediatric Chest X-Rays",
-    authors: "Abolade, I., Idoko, E., Odelola, S., Omoigui, P., Adebanwo, A., Iorumbur, A., Anazodo, U., Crimi, A., & Confidence, R.",
-    venue: "MIRASOL @ MICCAI, Best Paper Runner-up (Springer LNCS)",
-    year: "2025",
-    links: [
-      {
-        text: "Springer LNCS",
-        url: "https://link.springer.com/chapter/10.1007/978-3-032-13654-1_9"
-      },
-      {
-        text: "Preprint",
-        url: "https://arxiv.org/abs/2508.08518"
-      },
     ]
   }
 ];
 
 const Papers = () => {
   const renderAuthorsWithBoldName = (authors) => {
-    const nameToBold = "Abolade, I.";
+    const nameToBold = "Adele, T.";
     const parts = authors.split(nameToBold);
-    
+
     if (parts.length === 1) {
       // Name not found, return as is
       return authors;
     }
-    
+
     const result = [];
     for (let i = 0; i < parts.length; i++) {
       if (parts[i]) {
@@ -95,10 +53,10 @@ const Papers = () => {
             {paper.links && paper.links.length > 0 && (
               <div className="paper-links">
                 {paper.links.map((link, index) => (
-                  <a 
+                  <a
                     key={index}
-                    href={link.url} 
-                    target="_blank" 
+                    href={link.url}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="paper-link"
                   >
