@@ -6,9 +6,10 @@ const newsItems = [
     date: "Aug 2026",
     description: (
       <>
-        Named an Official Grantee of Adaption&apos;s Research Grant Program 2026, awarded to a small group of
+        Awarded Official Grantee status in Adaption&apos;s Research Grant Program 2026, given to a small group of
         researchers undertaking work that advances progress in artificial intelligence, efficiency, and improves
-        access to scientific discovery.
+        access to scientific discovery.{" "}
+        <a href="https://drive.google.com/file/d/1o4JrZ9DMOhZ5444VF3ANQ8XAYKKz8ydV/view?usp=sharing" target="_blank" rel="noopener noreferrer">[Certificate]</a>
       </>
     ),
   },
