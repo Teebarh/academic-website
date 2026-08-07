@@ -3,6 +3,17 @@ import { NewsSection } from "../../assets/styles";
 const newsItems = [
   {
     id: 1,
+    date: "Aug 2026",
+    description: (
+      <>
+        Named an Official Grantee of Adaption&apos;s Research Grant Program 2026, awarded to a small group of
+        researchers undertaking work that advances progress in artificial intelligence, efficiency, and improves
+        access to scientific discovery.
+      </>
+    ),
+  },
+  {
+    id: 2,
     date: "June 2026",
     description: (
       <>
