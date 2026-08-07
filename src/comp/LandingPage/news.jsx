@@ -6,9 +6,20 @@ const newsItems = [
     date: "Aug 2026",
     description: (
       <>
-        Awarded Official Grantee status in Adaption&apos;s Research Grant Program 2026, given to a small group of
-        researchers undertaking work that advances progress in artificial intelligence, efficiency, and improves
-        access to scientific discovery.{" "}
+        Attended the Cohere Labs ML Summer School 2026.{" "}
+        <a href="https://credsverse.com/credentials/f1a6ac19-0e91-41ce-86f3-981df1c82fbc" target="_blank" rel="noopener noreferrer">[Certificate]</a>
+      </>
+    ),
+  },
+  {
+    id: 2,
+    date: "Aug 2026",
+    description: (
+      <>
+        Awarded a research grant from{" "}
+        <a href="https://adaptionlabs.ai/blog/adaption-research-grant-program" target="_blank" rel="noopener noreferrer">Adaption&apos;s Research Grant Program 2026</a>,
+        given to a small group of researchers undertaking work that advances progress in artificial intelligence,
+        efficiency, and improves access to scientific discovery.{" "}
         <a href="https://drive.google.com/file/d/1o4JrZ9DMOhZ5444VF3ANQ8XAYKKz8ydV/view?usp=sharing" target="_blank" rel="noopener noreferrer">[Certificate]</a>
       </>
     ),
