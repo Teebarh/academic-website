@@ -6,6 +6,17 @@ const newsItems = [
     date: "Aug 2026",
     description: (
       <>
+        Awarded the OpenToken Research Grant to support our occlusion project, powered by{" "}
+        <a href="https://cloudrift.ai" target="_blank" rel="noopener noreferrer">Cloudrift</a>.{" "}
+        <a href="https://opentoken.global/projects" target="_blank" rel="noopener noreferrer">[Project Details]</a>
+      </>
+    ),
+  },
+  {
+    id: 2,
+    date: "Aug 2026",
+    description: (
+      <>
         Attended the Cohere Labs ML Summer School 2026.{" "}
         <a href="https://credsverse.com/credentials/f1a6ac19-0e91-41ce-86f3-981df1c82fbc" target="_blank" rel="noopener noreferrer">[Certificate]</a>
       </>
