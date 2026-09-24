@@ -2,6 +2,19 @@ import { NewsSection } from "../../assets/styles";
 
 const newsItems = [
   {
+    id: 0,
+    date: "Sept 2026",
+    description: (
+      <>
+        Our paper &quot;Occlusion for Free: Detecting Occlusion from the Disagreement Between Two
+        Monocular Distance Cues&quot; was accepted to the{" "}
+        <a href="https://sites.google.com/view/globalsouthai-neurips26/home" target="_blank" rel="noopener noreferrer">GlobalSouthAI</a>{" "}
+        workshop, co-located with the{" "}
+        <a href="https://neurips.cc/Conferences/2026" target="_blank" rel="noopener noreferrer">Conference on Neural Information Processing Systems (NeurIPS) 2026</a>.
+      </>
+    ),
+  },
+  {
     id: 1,
     date: "Aug 2026",
     description: (

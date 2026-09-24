@@ -2,6 +2,15 @@ import { PapersSection } from "../../assets/styles";
 
 const papers = [
   {
+    id: 2,
+    title: "Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues",
+    authors: "Onyeweankwu, C., Adele, T., Abdulkareem, S., & Eje, O.",
+    venue: "GlobalSouthAI Workshop, co-located with the Conference on Neural Information Processing Systems (NeurIPS) 2026",
+    status: "Accepted",
+    year: "2026",
+    links: []
+  },
+  {
     id: 1,
     title: "A Stone Against Goliath: Addressing Occlusion Without LiDAR on Resource-Constrained Robots",
     authors: "Adele, T., Onyeweankwu, C., Abdulkareem, S., & Eje, O.",
